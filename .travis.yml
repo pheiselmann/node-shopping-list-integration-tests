@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HXpvhTU0L8ZDR77l3fa08sHs4ZhYzUhXBWG2lZUGhJqvzoYHjLThyCQSpq6BJde6Qgg9ZRm8paucDw6/5OnExuapzVk9qqWQZvmOSJCWobqlgIin+Rg/H6KcYTRabrobnwnPgqskYjxXcQm4qPjq6QpidxCbgv+KUBfYb8Kx5xEhIMJBIkLY/ypvqmQFI+KgNN2sSumDzn5PGgz1F1cpAYkn1Ku2pE9UKFiTM7GIe1Yl50FY9y58f4XGINJLOlIHVl7bZc/FqGtj4+rrSGcXQYxbAO4qJtIOIyywGMV51QCOhNYMGw2n7RpNKuTMu6YClB3aODhdSxnTouLiBgeB1FRLf4gTNI36YSFXvxLBZGF0vuCbWHNBuPCNTqzA6sSUV8qsvHOqwYW3vEZzl6HfQMTVQKb/0x3XWRxeoL9do7vMU1QF97mg/IftPc3BpTKbLpPjIma6mffrg/Ng1djz7WerolZTv6KvbGBJWxJzYknYaceCoituR/qjkf6atBb9YSq/kmaKZ8/aAUENs0DqSkOdvpK/ebTCAkCwUURhUz9kpEr6/KuVaWEj68mJAOiiHoKknsi0anN0ykz6KsJoVl5+wuyJqEMe8fZ7KYdNp982L+4FXs44mdUiunQcPdnjVQT0IGa3ch1uPNz67iyJidyaFJnb/sEPs+aY7jrdG/E=
+  app: aqueous-retreat-93193
+  on:
+    repo: pheiselmann/node-shopping-list-integration-tests
