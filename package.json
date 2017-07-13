@@ -22,6 +22,9 @@
     "hyperdev",
     "express"
   ],
+  "engines": {
+    "node": "8.1.4"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Thinkful-Ed/node-shopping-list-v5/issues"
